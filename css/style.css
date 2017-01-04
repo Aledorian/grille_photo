@@ -5,9 +5,11 @@ body{
 img:hover{
   transform: scale(1.25);
   filter: brightness(0.5);
+  z-index: 9999;
 }
 
 img{
+  position: relative;
   height: 300px!important;
   width: auto!important;
   margin-top: 40px;
